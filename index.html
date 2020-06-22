@@ -18,7 +18,7 @@
         margin-top: 22px;
         border-radius: 15px;
         opacity: 40%;
-        
+        text-align: center;
     }
     #goog {
         position: relative;
@@ -32,13 +32,55 @@
         margin-left: 840px;
         margin-top: -21px;
         display: block;
-        opacity: 65%;
-        
-    }
-</style>
-<body>
+        opacity: 65%; }
+
+
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(51, 47, 47);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+  
+  
+  
+  </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<header>
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+        <li style="float: right"><a href="#">Gmail</a></li>
+        <li style="float: right"><a href="#">Images</a></li>
+    </ul>
+</header>
+    <body>
+
+  
 <img alt="Google" id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-<input type="text" id="search"> 
+<input type="text" id="search" placeholder="Search Google or Enter a URL"> 
     <input type="submit" id="goog" value="Google Search">
     <input type="submit" id="lucky" value="I'm Feeling Lucky"> 
 
